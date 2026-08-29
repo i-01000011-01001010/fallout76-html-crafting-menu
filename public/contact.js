@@ -63,16 +63,32 @@ function setStatus(msg, kind) {
   el.className = "form-status " + (kind || "");
 }
 
+function buildEmailBody(payload) {
+  return [
+    `In-game name: ${payload.ign || "-"}`,
+    `Discord: ${payload.discord || "-"}`,
+    "",
+    "Looking for:",
+    payload.wants || "-",
+    "",
+    "Offering:",
+    payload.offering || "-",
+    "",
+    "Message:",
+    payload.message || "-",
+  ].join("\n");
+}
+
 function attachForm(config) {
   const form = document.getElementById("contactForm");
-  const btn = document.getElementById("submitBtn");
-  form.addEventListener("submit", async e => {
+  const recipient = (config.contact && config.contact.recipientEmail) || "";
+
+  form.addEventListener("submit", e => {
     e.preventDefault();
-    btn.disabled = true;
-    setStatus("Sending...", "");
+
+    if (form.website.value) return; // honeypot, quietly do nothing
 
     const payload = {
-      website: form.website.value, // honeypot
       ign: form.ign.value.trim(),
       discord: form.discord.value.trim(),
       wants: form.wants.value.trim(),
@@ -80,25 +96,30 @@ function attachForm(config) {
       message: form.message.value.trim(),
     };
 
-    try {
-      const res = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "content-type": "application/json" },
-        body: JSON.stringify(payload),
-      });
-      const data = await res.json();
-      if (data.ok) {
-        setStatus("Request sent, thanks! Expect a reply in-game or on Discord.", "ok");
-        form.reset();
-        cartClear();
-      } else {
-        setStatus(data.error || "Something went wrong sending that.", "err");
-      }
-    } catch (err) {
-      setStatus("Network error, please try again in a moment.", "err");
-    } finally {
-      btn.disabled = false;
+    if (!payload.ign.trim() && !payload.discord.trim()) {
+      setStatus("Please include an in-game name or Discord handle.", "err");
+      return;
     }
+    if (!payload.wants.trim() && !payload.message.trim()) {
+      setStatus("Please include what you're looking for, or a message.", "err");
+      return;
+    }
+
+    if (!recipient) {
+      setStatus('No contact email is configured yet, add "recipientEmail" under "contact" in data/config.json.', "err");
+      return;
+    }
+
+    const subject = `C.A.M.P. vendor request, ${payload.ign || payload.discord || "new contact"}`;
+    const body = buildEmailBody(payload);
+    const mailto = `mailto:${encodeURIComponent(recipient)}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+    setStatus("Opening your email client... if nothing happens, use the link below.", "ok");
+    window.location.href = mailto;
+
+    const fallback = document.getElementById("mailtoFallback");
+    fallback.href = mailto;
+    fallback.style.display = "";
   });
 }
 

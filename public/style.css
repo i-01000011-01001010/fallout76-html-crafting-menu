@@ -149,6 +149,8 @@ a { color: var(--amber-bright); }
 .form-status { font-size: 13px; min-height: 18px; }
 .form-status.ok { color: var(--amber-bright); }
 .form-status.err { color: var(--danger); }
+.mailto-fallback { display: inline-block; font-size: 12px; color: var(--amber-dim); text-decoration: none; border-bottom: 1px solid var(--amber-faint); }
+.mailto-fallback:hover { color: var(--amber-bright); }
 .disabled-note { border: 1px dashed var(--amber-dim); padding: 14px 16px; color: var(--amber-dim); font-size: 14px; }
 
 /* ---------- Footer ---------- */

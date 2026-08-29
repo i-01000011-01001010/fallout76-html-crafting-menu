@@ -110,7 +110,8 @@ You can also hand-edit the JSON directly. See **Data model** below for the shape
   },
   "contact": {
     "enabled": true,                // hides the CONTACT nav link + form entirely when false
-    "prompt": "Shown at the top of the contact form."
+    "prompt": "Shown at the top of the contact form.",
+    "recipientEmail": "you@example.com" // static branch only: the mailto: link's destination
   }
 }
 ```

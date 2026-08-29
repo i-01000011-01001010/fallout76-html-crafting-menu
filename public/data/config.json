@@ -12,6 +12,7 @@
   },
   "contact": {
     "enabled": true,
-    "prompt": "Tell me what you're after and what you've got to offer, and I'll get back to you in-game or on Discord."
+    "prompt": "Tell me what you're after and what you've got to offer, and I'll get back to you in-game or on Discord.",
+    "recipientEmail": "you@example.com"
   }
 }
