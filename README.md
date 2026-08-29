@@ -8,6 +8,9 @@ check off what they want, and a sticky cart carries their picks into a contact f
 Not affiliated with Bethesda Softworks or Fallout 76. Fan-made tool, MIT licensed, do with it
 what you like.
 
+**Live example:** [fo76.a42.co](https://fo76.a42.co) is a real camp running this project, take a
+look for a sense of what it looks like in practice.
+
 **No database.** Everything lives in two plain JSON files you edit by hand or through a built-in
 offline admin page. **No build step.** It's HTML, CSS, and vanilla JS, no framework, no bundler
 for the site itself.
