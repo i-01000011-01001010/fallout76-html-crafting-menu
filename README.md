@@ -33,18 +33,29 @@ use `static`.
 
 ## Quick start (`main` branch, Cloudflare Workers)
 
+If you'd rather avoid Cloudflare-specific setup entirely, the `static` branch below needs none of
+this, plain file hosting, no account, no API token. This branch gets you a real server-side
+contact form in exchange for a few Cloudflare-specific steps, worth it if you want that, skippable
+if you don't.
+
 1. **Use this repo as a template** (GitHub's "Use this template" button) or fork it.
 2. Edit `public/data/config.json` with your camp name, in-game name, Discord, and trade terms.
 3. Edit `public/data/items.json`, or use `public/admin.html` (see below), to mark what you
    actually have available. Everything ships unchecked on purpose, so nothing looks available
    until you've confirmed it.
-4. Push to GitHub, then in the Cloudflare dashboard: **Workers & Pages → Create → Workers →
-   Connect to Git**, pick your repo. Cloudflare reads `wrangler.toml` automatically.
-   - Alternatively, this repo's `.github/workflows/deploy.yml` deploys via GitHub Actions using
-     `wrangler-action` instead, if you'd rather trigger deploys from a plain `git push` than
-     Cloudflare's own connected-repo feature. Either works, don't set up both at once, pick one.
-     For the Actions route, add `CLOUDFLARE_API_TOKEN` as a repo secret
-     (Settings → Secrets and variables → Actions).
+4. Push to GitHub, then either:
+   - Use this repo's `.github/workflows/deploy.yml`, which deploys via GitHub Actions using
+     `wrangler-action` on every push to `main`. Add two repo secrets first (Settings → Secrets
+     and variables → Actions → New repository secret):
+     - `CLOUDFLARE_API_TOKEN`, your account's API token.
+     - `CLOUDFLARE_ACCOUNT_ID`, found in the dashboard under **Account Home** (it's the ID in the
+       URL, `dash.cloudflare.com/<this-part>/...`) or under **Manage Account → API**. Needed even
+       if you only have one Cloudflare account, a non-interactive Actions deploy can't prompt you
+       to pick one the way a local terminal would. **Or:**
+   - In the Cloudflare dashboard: **Workers & Pages → Create → Workers → Connect to Git**, pick
+     your repo. Cloudflare reads `wrangler.toml` automatically and handles account selection
+     itself, no secrets needed on the GitHub side for this path.
+   - Pick one of these two, not both.
 5. **Set up the contact form's email**: in `wrangler.toml`, set `destination_address` under
    `[[send_email]]` to your own email, and change `RECIPIENT` in `src/index.js` to match exactly
    (both need to agree). In the Cloudflare dashboard, enable Email Routing for your domain's zone
@@ -64,6 +75,30 @@ npx wrangler dev
 `fetch()` can't read local JSON over a `file://` path (browsers block it), so double-clicking
 `index.html` won't work, `wrangler dev` runs a real local server and lets you test the contact
 form too.
+
+### Troubleshooting a failed deploy
+
+Wrangler's error output tends to get hidden behind a collapsed log line in GitHub Actions
+("🚀 Running Wrangler Commands"), click it to expand, or use the "..." menu → "View raw logs" to
+see everything unfolded. The specific errors below all come from real deploys of this exact setup:
+
+- **`Wrangler requires at least Node.js v22.0.0`** — the workflow needs `node-version: 22` (or
+  higher) in `.github/workflows/deploy.yml`, this repo already ships with that set correctly, but
+  double check it if you've edited the workflow.
+- **`More than one account available but unable to select one in non-interactive mode`** — add
+  `CLOUDFLARE_ACCOUNT_ID` as a repo secret and pass it to `wrangler-action` (step 4 above, already
+  wired up in `.github/workflows/deploy.yml`). This only surfaces in CI/non-interactive deploys,
+  `wrangler dev` locally works fine without it since a real terminal can just prompt you to pick.
+- **`Could not resolve "path"` / `"node:os" wasn't found`** — `compatibility_flags =
+  ["nodejs_compat"]` needs to be set in `wrangler.toml` (already included by default here), this
+  is required because the email-building library uses Node built-ins Workers doesn't include
+  unless you opt in.
+- **`Could not resolve "mimetext"`** — the workflow isn't running `npm install` before deploying,
+  or you're deploying from the dashboard's connected-Git feature instead of Actions (that path
+  doesn't run a build step for you), stick to one deploy method, not both.
+- **Contact form returns an error / email never arrives** — usually means the destination address
+  in `wrangler.toml` isn't verified under Email Routing yet for that domain's Cloudflare zone, or
+  it doesn't exactly match `RECIPIENT` in `src/index.js`.
 
 ## Quick start (`static` branch, host anywhere)
 
