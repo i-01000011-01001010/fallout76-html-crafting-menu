@@ -43,25 +43,26 @@ if you don't.
 3. Edit `public/data/items.json`, or use `public/admin.html` (see below), to mark what you
    actually have available. Everything ships unchecked on purpose, so nothing looks available
    until you've confirmed it.
-4. **Set your Cloudflare account ID.** In `wrangler.toml`, replace
-   `REPLACE_WITH_YOUR_CLOUDFLARE_ACCOUNT_ID` with your real one, find it in the Cloudflare
-   dashboard under **Account Home** (it's the ID in the URL, `dash.cloudflare.com/<this-part>/...`)
-   or under **Manage Account → API**. Do this even if you only have one Cloudflare account,
-   deploying from GitHub Actions runs non-interactively and needs it set explicitly either way.
-5. Push to GitHub, then either:
-   - In the Cloudflare dashboard: **Workers & Pages → Create → Workers → Connect to Git**, pick
-     your repo. Cloudflare reads `wrangler.toml` automatically. **Or:**
+4. Push to GitHub, then either:
    - Use this repo's `.github/workflows/deploy.yml`, which deploys via GitHub Actions using
-     `wrangler-action` instead, if you'd rather trigger deploys from a plain `git push`. Add
-     `CLOUDFLARE_API_TOKEN` as a repo secret first (Settings → Secrets and variables → Actions).
+     `wrangler-action` on every push to `main`. Add two repo secrets first (Settings → Secrets
+     and variables → Actions → New repository secret):
+     - `CLOUDFLARE_API_TOKEN`, your account's API token.
+     - `CLOUDFLARE_ACCOUNT_ID`, found in the dashboard under **Account Home** (it's the ID in the
+       URL, `dash.cloudflare.com/<this-part>/...`) or under **Manage Account → API**. Needed even
+       if you only have one Cloudflare account, a non-interactive Actions deploy can't prompt you
+       to pick one the way a local terminal would. **Or:**
+   - In the Cloudflare dashboard: **Workers & Pages → Create → Workers → Connect to Git**, pick
+     your repo. Cloudflare reads `wrangler.toml` automatically and handles account selection
+     itself, no secrets needed on the GitHub side for this path.
    - Pick one of these two, not both.
-6. **Set up the contact form's email**: in `wrangler.toml`, set `destination_address` under
+5. **Set up the contact form's email**: in `wrangler.toml`, set `destination_address` under
    `[[send_email]]` to your own email, and change `RECIPIENT` in `src/index.js` to match exactly
    (both need to agree). In the Cloudflare dashboard, enable Email Routing for your domain's zone
    and verify that same address as a destination, or `env.SEB.send()` will fail at request time.
    If you don't want the contact form at all, set `"contact": { "enabled": false }` in
    `config.json` and skip this step entirely.
-7. Optional: attach a custom domain under the Worker's **Settings → Domains & Routes**, and
+6. Optional: attach a custom domain under the Worker's **Settings → Domains & Routes**, and
    uncomment the `routes` block in `wrangler.toml` to match.
 
 ### Local preview
@@ -84,9 +85,10 @@ see everything unfolded. The specific errors below all come from real deploys of
 - **`Wrangler requires at least Node.js v22.0.0`** — the workflow needs `node-version: 22` (or
   higher) in `.github/workflows/deploy.yml`, this repo already ships with that set correctly, but
   double check it if you've edited the workflow.
-- **`More than one account available but unable to select one in non-interactive mode`** — set
-  `account_id` in `wrangler.toml` (step 4 above). This only surfaces in CI/non-interactive
-  deploys, `wrangler dev` locally may work fine without it and mask the issue until you deploy.
+- **`More than one account available but unable to select one in non-interactive mode`** — add
+  `CLOUDFLARE_ACCOUNT_ID` as a repo secret and pass it to `wrangler-action` (step 4 above, already
+  wired up in `.github/workflows/deploy.yml`). This only surfaces in CI/non-interactive deploys,
+  `wrangler dev` locally works fine without it since a real terminal can just prompt you to pick.
 - **`Could not resolve "path"` / `"node:os" wasn't found`** — `compatibility_flags =
   ["nodejs_compat"]` needs to be set in `wrangler.toml` (already included by default here), this
   is required because the email-building library uses Node built-ins Workers doesn't include

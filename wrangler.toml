@@ -7,14 +7,6 @@ compatibility_date = "2026-08-01"
 # "Could not resolve 'path'" or similar.
 compatibility_flags = ["nodejs_compat"]
 
-# Required if your Cloudflare API token has access to more than one
-# account (common if you've used Cloudflare for more than one site).
-# Without this, deploying non-interactively (e.g. from GitHub Actions)
-# fails with "More than one account available but unable to select one".
-# Find yours: Cloudflare dashboard -> Account Home -> the ID in the URL
-# (dash.cloudflare.com/<this-part>/...), or under Manage Account -> API.
-account_id = "REPLACE_WITH_YOUR_CLOUDFLARE_ACCOUNT_ID"
-
 # Uncomment and set this to your own domain once it's attached in the
 # Cloudflare dashboard. Leave it out entirely to just use the default
 # *.workers.dev URL Cloudflare gives you on first deploy.
