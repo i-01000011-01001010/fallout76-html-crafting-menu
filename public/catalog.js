@@ -364,15 +364,6 @@ function attachModTooltip(el, mod) {
       notes.textContent = mod.notes;
       tip.appendChild(notes);
     }
-    if (mod.wikiUrl) {
-      const link = document.createElement("a");
-      link.className = "mod-tooltip-link";
-      link.href = mod.wikiUrl;
-      link.target = "_blank";
-      link.rel = "noopener";
-      link.textContent = "Fallout Wiki \u2197";
-      tip.appendChild(link);
-    }
     document.body.appendChild(tip);
     const r = el.getBoundingClientRect();
     const top = window.scrollY + r.bottom + 6;

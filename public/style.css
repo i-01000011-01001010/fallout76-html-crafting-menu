@@ -153,6 +153,8 @@ a { color: var(--amber-bright); }
 
 /* ---------- Footer ---------- */
 .footer { margin-top: 50px; padding-top: 14px; border-top: 1px solid var(--amber-faint); font-size: 12px; color: var(--amber-dim); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+.github-footer-link { color: var(--amber-dim); text-decoration: none; border-bottom: 1px solid var(--amber-faint); }
+.github-footer-link:hover { color: var(--amber-bright); border-bottom-color: var(--amber-bright); }
 
 /* ---------- Admin page ---------- */
 .admin-panel { border: 1px solid var(--amber-dim); padding: 16px 18px; margin-bottom: 24px; }

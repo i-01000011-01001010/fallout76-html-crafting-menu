@@ -15,8 +15,7 @@
           "weapon": "+10% damage per kill while on a kill streak",
           "armor": "+10 Damage and Energy Resistance per kill while on a kill streak (max 10 stacks)",
           "powerArmor": "+10 Damage and Energy Resistance per kill while on a kill streak (max 10 stacks)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Adrenal"
+        }
       },
       {
         "id": "m1-antiarmor",
@@ -28,8 +27,7 @@
         ],
         "effects": {
           "weapon": "+50% armor penetration"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Anti-Armor"
+        }
       },
       {
         "id": "m1-aristocrats",
@@ -45,8 +43,7 @@
           "weapon": "Up to +50% damage, scaling with caps held",
           "armor": "Reflects a portion of incoming damage back at the attacker, scaling with caps held",
           "powerArmor": "Reflects a portion of incoming damage back at the attacker, scaling with caps held"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Aristocrats"
+        }
       },
       {
         "id": "m1-assassins",
@@ -62,8 +59,7 @@
           "weapon": "+50% damage to Human enemies",
           "armor": "-15% damage taken from Human enemies",
           "powerArmor": "-15% damage taken from Human enemies"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Assassins"
+        }
       },
       {
         "id": "m1-auto-stim",
@@ -77,8 +73,7 @@
         "effects": {
           "armor": "Automatically uses a Stimpak when health drops to 25% (60s cooldown)",
           "powerArmor": "Automatically uses a Stimpak when health drops to 25% (60s cooldown)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Auto_Stim"
+        }
       },
       {
         "id": "m1-berserkers",
@@ -90,8 +85,7 @@
         ],
         "effects": {
           "weapon": "Up to +50% damage as your Damage Resistance decreases"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Berserkers"
+        }
       },
       {
         "id": "m1-bloodied",
@@ -103,8 +97,7 @@
         ],
         "effects": {
           "weapon": "Up to +130% damage as your health decreases"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Bloodied"
+        }
       },
       {
         "id": "m1-bolstering",
@@ -118,8 +111,7 @@
         "effects": {
           "armor": "Up to +10% Damage/Energy Resistance the lower your health is",
           "powerArmor": "Up to +10% Damage/Energy Resistance the lower your health is"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Bolstering"
+        }
       },
       {
         "id": "m1-chameleon",
@@ -133,8 +125,7 @@
         "effects": {
           "armor": "Turns you invisible while sneaking and not moving",
           "powerArmor": "Turns you invisible while sneaking and not moving"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Chameleon"
+        }
       },
       {
         "id": "m1-cloaking",
@@ -148,8 +139,7 @@
         "effects": {
           "armor": "Being hit in melee has a chance to turn you invisible (30s cooldown)",
           "powerArmor": "Being hit in melee has a chance to turn you invisible (30s cooldown)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Cloaking"
+        }
       },
       {
         "id": "m1-executioners",
@@ -161,8 +151,7 @@
         ],
         "effects": {
           "weapon": "+50% damage to targets below 40% health"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Executioners"
+        }
       },
       {
         "id": "m1-exterminators",
@@ -178,8 +167,7 @@
           "weapon": "+50% damage to Mirelurks and Insects",
           "armor": "-15% damage taken from Mirelurks and Insects",
           "powerArmor": "-15% damage taken from Mirelurks and Insects"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Exterminators"
+        }
       },
       {
         "id": "m1-ferals",
@@ -191,8 +179,7 @@
         ],
         "effects": {
           "weapon": "(Ghoul characters) kills make you go feral faster (melee only)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Ferals"
+        }
       },
       {
         "id": "m1-furious",
@@ -204,8 +191,7 @@
         ],
         "effects": {
           "weapon": "+5% damage per Onslaught stack (up to 9 stacks)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Furious"
+        }
       },
       {
         "id": "m1-ghoul-slayers",
@@ -221,8 +207,7 @@
           "weapon": "+50% damage to Ghouls",
           "armor": "-15% damage taken from Ghouls",
           "powerArmor": "-15% damage taken from Ghouls"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Ghoul_Slayers"
+        }
       },
       {
         "id": "m1-gourmands",
@@ -234,8 +219,7 @@
         ],
         "effects": {
           "weapon": "Up to +40% damage as hunger and thirst are satisfied"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Gourmands"
+        }
       },
       {
         "id": "m1-heavyweight",
@@ -248,7 +232,6 @@
         "effects": {
           "armor": "Up to +10% Damage/Energy Resistance the more encumbered you are"
         },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Heavyweight",
         "notes": "formerly named Weightless; armor only, does not apply to power armor"
       },
       {
@@ -265,8 +248,7 @@
           "weapon": "+50% damage to Animals",
           "armor": "-15% damage taken from Animals",
           "powerArmor": "-15% damage taken from Animals"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Hunters"
+        }
       },
       {
         "id": "m1-instigating",
@@ -278,8 +260,7 @@
         ],
         "effects": {
           "weapon": "+50% damage vs targets above 60% health"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Instigating"
+        }
       },
       {
         "id": "m1-juggernauts",
@@ -291,8 +272,7 @@
         ],
         "effects": {
           "weapon": "Up to +100% damage as your health increases"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Juggernauts"
+        }
       },
       {
         "id": "m1-junkies",
@@ -304,8 +284,7 @@
         ],
         "effects": {
           "weapon": "Up to +100% damage, scaling with active addictions"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Junkies"
+        }
       },
       {
         "id": "m1-life-saving",
@@ -317,8 +296,7 @@
         ],
         "effects": {
           "armor": "50% chance to auto-revive with a Stimpak on death (60s cooldown)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Life_Saving"
+        }
       },
       {
         "id": "m1-lucid",
@@ -334,8 +312,7 @@
           "weapon": "(Ghoul characters) damage and resistance scale with the feral meter",
           "armor": "(Ghoul characters) damage and resistance scale with the feral meter",
           "powerArmor": "(Ghoul characters) damage and resistance scale with the feral meter"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Lucid"
+        }
       },
       {
         "id": "m1-medics",
@@ -347,8 +324,7 @@
         ],
         "effects": {
           "weapon": "Attacks heal nearby friendly targets for 5% of damage dealt"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Medics"
+        }
       },
       {
         "id": "m1-mutant-slayers",
@@ -364,8 +340,7 @@
           "weapon": "+50% damage to Super Mutants",
           "armor": "-15% damage taken from Super Mutants",
           "powerArmor": "-15% damage taken from Super Mutants"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Mutant_Slayers"
+        }
       },
       {
         "id": "m1-mutants",
@@ -381,8 +356,7 @@
           "weapon": "Up to +50% damage while mutated",
           "armor": "Up to +5% Damage/Energy Resistance while mutated",
           "powerArmor": "Up to +5% Damage/Energy Resistance while mutated"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Mutants"
+        }
       },
       {
         "id": "m1-nocturnal",
@@ -398,8 +372,7 @@
           "weapon": "+50% damage while cloaked",
           "armor": "+4 Perception and Agility while cloaked",
           "powerArmor": "+4 Perception and Agility while cloaked"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Nocturnal"
+        }
       },
       {
         "id": "m1-overeaters",
@@ -413,8 +386,7 @@
         "effects": {
           "armor": "Up to +40 max health as hunger and thirst are satisfied",
           "powerArmor": "Up to +40 max health as hunger and thirst are satisfied"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Overeaters"
+        }
       },
       {
         "id": "m1-quad",
@@ -426,8 +398,7 @@
         ],
         "effects": {
           "weapon": "+300% ammo capacity (ranged only)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Quad"
+        }
       },
       {
         "id": "m1-regenerating",
@@ -441,8 +412,7 @@
         "effects": {
           "armor": "+0.5% health regeneration rate",
           "powerArmor": "+0.5% health regeneration rate"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Regenerating"
+        }
       },
       {
         "id": "m1-snipers",
@@ -454,8 +424,7 @@
         ],
         "effects": {
           "weapon": "+100% damage to distant targets (ranged only)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Snipers"
+        }
       },
       {
         "id": "m1-stalkers",
@@ -467,8 +436,7 @@
         ],
         "effects": {
           "weapon": "+100% sneak attack damage (ranged only)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Stalkers"
+        }
       },
       {
         "id": "m1-suppressors",
@@ -480,8 +448,7 @@
         ],
         "effects": {
           "weapon": "Reduces target's damage output by 25% for 5 seconds on hit"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Suppressors"
+        }
       },
       {
         "id": "m1-troubleshooters",
@@ -497,8 +464,7 @@
           "weapon": "+50% damage to Robots",
           "armor": "-15% damage taken from Robots",
           "powerArmor": "-15% damage taken from Robots"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Troubleshooters"
+        }
       },
       {
         "id": "m1-two-shot",
@@ -510,8 +476,7 @@
         ],
         "effects": {
           "weapon": "Fires an extra projectile, +75% damage, worse accuracy and recoil (ranged only)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Two_Shot"
+        }
       },
       {
         "id": "m1-unyielding",
@@ -523,8 +488,7 @@
         ],
         "effects": {
           "armor": "Up to +3 to all SPECIAL stats except Endurance at low health"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Unyielding"
+        }
       },
       {
         "id": "m1-vampires",
@@ -536,8 +500,7 @@
         ],
         "effects": {
           "weapon": "Restores 2% of damage dealt as health over 2 seconds"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Vampires"
+        }
       },
       {
         "id": "m1-vanguards",
@@ -551,8 +514,7 @@
         "effects": {
           "armor": "Up to +6% Damage/Energy Resistance as your health increases",
           "powerArmor": "Up to +6% Damage/Energy Resistance as your health increases"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Vanguards"
+        }
       },
       {
         "id": "m1-zealots",
@@ -568,8 +530,7 @@
           "weapon": "+50% damage to Scorched",
           "armor": "-15% damage taken from Scorched",
           "powerArmor": "-15% damage taken from Scorched"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Zealots"
+        }
       }
     ],
     "2": [
@@ -585,8 +546,7 @@
         "effects": {
           "armor": "+2 Agility",
           "powerArmor": "+2 Agility"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Agility"
+        }
       },
       {
         "id": "m2-antiseptic",
@@ -600,8 +560,7 @@
         "effects": {
           "armor": "+25% reduced chance of catching a disease from hazards",
           "powerArmor": "+25% reduced chance of catching a disease from hazards"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Antiseptic"
+        }
       },
       {
         "id": "m2-bashers",
@@ -613,8 +572,7 @@
         ],
         "effects": {
           "weapon": "+50% bash attack damage (ranged only)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Bashers"
+        }
       },
       {
         "id": "m2-charisma",
@@ -628,8 +586,7 @@
         "effects": {
           "armor": "+2 Charisma",
           "powerArmor": "+2 Charisma"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Charisma"
+        }
       },
       {
         "id": "m2-crippling",
@@ -641,8 +598,7 @@
         ],
         "effects": {
           "weapon": "+50% limb damage"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Crippling"
+        }
       },
       {
         "id": "m2-elementalist",
@@ -656,8 +612,7 @@
         "effects": {
           "armor": "+25 to all damage resistances",
           "powerArmor": "+25 to all damage resistances"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Elementalist"
+        }
       },
       {
         "id": "m2-endurance",
@@ -671,8 +626,7 @@
         "effects": {
           "armor": "+2 Endurance",
           "powerArmor": "+2 Endurance"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Endurance"
+        }
       },
       {
         "id": "m2-explosive",
@@ -684,8 +638,7 @@
         ],
         "effects": {
           "weapon": "Projectiles explode on impact for +20% weapon damage (ranged only)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Explosive"
+        }
       },
       {
         "id": "m2-fierce",
@@ -699,8 +652,7 @@
         "effects": {
           "armor": "Fortifies limb resistance based on kill streak",
           "powerArmor": "Fortifies limb resistance based on kill streak"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Fierce"
+        }
       },
       {
         "id": "m2-fireproof",
@@ -714,8 +666,7 @@
         "effects": {
           "armor": "+50 Fire Resistance",
           "powerArmor": "+50 Fire Resistance"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Fireproof"
+        }
       },
       {
         "id": "m2-glutton",
@@ -729,8 +680,7 @@
         "effects": {
           "armor": "Hunger and thirst grow 10% slower",
           "powerArmor": "Hunger and thirst grow 10% slower"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Glutton"
+        }
       },
       {
         "id": "m2-hardy",
@@ -744,8 +694,7 @@
         "effects": {
           "armor": "Take 7% less explosion damage",
           "powerArmor": "Take 7% less explosion damage"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Hardy"
+        }
       },
       {
         "id": "m2-hazmat",
@@ -759,8 +708,7 @@
         "effects": {
           "armor": "+50 Radiation Resistance",
           "powerArmor": "+50 Radiation Resistance"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/HazMat"
+        }
       },
       {
         "id": "m2-heavy-hitters",
@@ -772,8 +720,7 @@
         ],
         "effects": {
           "weapon": "+40% power attack damage (melee only)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Heavy_Hitters"
+        }
       },
       {
         "id": "m2-hitmans",
@@ -785,8 +732,7 @@
         ],
         "effects": {
           "weapon": "+25% damage while aiming (ranged only)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Hitmans"
+        }
       },
       {
         "id": "m2-inertial",
@@ -798,8 +744,7 @@
         ],
         "effects": {
           "weapon": "Replenishes 15 Action Points with each kill"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Inertial"
+        }
       },
       {
         "id": "m2-intelligence",
@@ -813,8 +758,7 @@
         "effects": {
           "armor": "+2 Intelligence",
           "powerArmor": "+2 Intelligence"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Intelligence"
+        }
       },
       {
         "id": "m2-last-shot",
@@ -826,8 +770,7 @@
         ],
         "effects": {
           "weapon": "25% chance the last round in the magazine deals +100% damage (ranged only)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Last_Shot"
+        }
       },
       {
         "id": "m2-luck",
@@ -841,8 +784,7 @@
         "effects": {
           "armor": "+2 Luck",
           "powerArmor": "+2 Luck"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Luck"
+        }
       },
       {
         "id": "m2-pain-killer",
@@ -856,8 +798,7 @@
         "effects": {
           "armor": "Gain health over time while on a kill streak",
           "powerArmor": "Gain health over time while on a kill streak"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Pain_Killer"
+        }
       },
       {
         "id": "m2-perception",
@@ -871,8 +812,7 @@
         "effects": {
           "armor": "+2 Perception",
           "powerArmor": "+2 Perception"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Perception"
+        }
       },
       {
         "id": "m2-pick-pocketers",
@@ -884,8 +824,7 @@
         ],
         "effects": {
           "weapon": "Kills have a 50% chance to grant bonus caps (melee only)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Pick_Pocketers"
+        }
       },
       {
         "id": "m2-poisoners",
@@ -899,8 +838,7 @@
         "effects": {
           "armor": "+50 Poison Resistance",
           "powerArmor": "+50 Poison Resistance"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Poisoners"
+        }
       },
       {
         "id": "m2-powered",
@@ -914,8 +852,7 @@
         "effects": {
           "armor": "+5% Action Point regeneration",
           "powerArmor": "+5% Action Point regeneration"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Powered"
+        }
       },
       {
         "id": "m2-rapid",
@@ -927,8 +864,7 @@
         ],
         "effects": {
           "weapon": "+25% fire rate or +40% melee attack speed"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Rapid"
+        }
       },
       {
         "id": "m2-riposting",
@@ -940,8 +876,7 @@
         ],
         "effects": {
           "weapon": "+50% blocked damage reflected back at the attacker (melee only)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Riposting"
+        }
       },
       {
         "id": "m2-rushing",
@@ -955,8 +890,7 @@
         "effects": {
           "armor": "Gain Action Points over time while on a kill streak",
           "powerArmor": "Gain Action Points over time while on a kill streak"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Rushing"
+        }
       },
       {
         "id": "m2-steady",
@@ -968,8 +902,7 @@
         ],
         "effects": {
           "weapon": "+25% melee damage while not moving (melee only)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Steady"
+        }
       },
       {
         "id": "m2-strength",
@@ -983,8 +916,7 @@
         "effects": {
           "armor": "+2 Strength",
           "powerArmor": "+2 Strength"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Strength"
+        }
       },
       {
         "id": "m2-vats-enhanced",
@@ -996,8 +928,7 @@
         ],
         "effects": {
           "weapon": "+50% chance to hit in V.A.T.S. (ranged only)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/V.A.T.S._Enhanced"
+        }
       },
       {
         "id": "m2-vital",
@@ -1009,8 +940,7 @@
         ],
         "effects": {
           "weapon": "+50% critical damage"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Vital"
+        }
       },
       {
         "id": "m2-warming",
@@ -1024,8 +954,7 @@
         "effects": {
           "armor": "+50 Cryo Resistance",
           "powerArmor": "+50 Cryo Resistance"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Warming"
+        }
       }
     ],
     "3": [
@@ -1039,8 +968,7 @@
         ],
         "effects": {
           "armor": "-50% fall damage"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Acrobats"
+        }
       },
       {
         "id": "m3-active",
@@ -1054,8 +982,7 @@
         "effects": {
           "armor": "+20 max Action Points",
           "powerArmor": "+20 max Action Points"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Active"
+        }
       },
       {
         "id": "m3-adamantium",
@@ -1067,8 +994,7 @@
         ],
         "effects": {
           "armor": "Take 15% less limb damage"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Adamantium"
+        }
       },
       {
         "id": "m3-agility",
@@ -1080,8 +1006,7 @@
         ],
         "effects": {
           "weapon": "+3 Agility"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Agility"
+        }
       },
       {
         "id": "m3-arms-keepers",
@@ -1095,8 +1020,7 @@
         "effects": {
           "armor": "Weapon weights reduced by 20%",
           "powerArmor": "Weapon weights reduced by 20%"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Arms_Keepers"
+        }
       },
       {
         "id": "m3-barbarian",
@@ -1108,8 +1032,7 @@
         ],
         "effects": {
           "weapon": "+1 Strength per kill while on a kill streak (max 10) (melee only)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Barbarian"
+        }
       },
       {
         "id": "m3-belted",
@@ -1123,8 +1046,7 @@
         "effects": {
           "armor": "Ammo weight reduced by 20%",
           "powerArmor": "Ammo weight reduced by 20%"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Belted"
+        }
       },
       {
         "id": "m3-blocker",
@@ -1136,8 +1058,7 @@
         ],
         "effects": {
           "weapon": "15% more damage blocked while blocking (melee only)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Blocker"
+        }
       },
       {
         "id": "m3-burning",
@@ -1151,8 +1072,7 @@
         "effects": {
           "armor": "5% chance to deal 12 fire damage/sec to melee attackers",
           "powerArmor": "5% chance to deal 12 fire damage/sec to melee attackers"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Burning"
+        }
       },
       {
         "id": "m3-cavaliers",
@@ -1166,8 +1086,7 @@
         "effects": {
           "armor": "-10% damage taken while sprinting",
           "powerArmor": "-10% damage taken while sprinting"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Cavaliers"
+        }
       },
       {
         "id": "m3-charisma",
@@ -1179,8 +1098,7 @@
         ],
         "effects": {
           "weapon": "+3 Charisma"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Charisma"
+        }
       },
       {
         "id": "m3-defenders",
@@ -1196,8 +1114,7 @@
           "weapon": "40% auto-block chance (melee only)",
           "armor": "5% auto-block chance",
           "powerArmor": "5% auto-block chance"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Defenders"
+        }
       },
       {
         "id": "m3-dissipating",
@@ -1211,8 +1128,7 @@
         "effects": {
           "armor": "+0.25% radiation damage recovery rate",
           "powerArmor": "+0.25% radiation damage recovery rate"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Dissipating"
+        }
       },
       {
         "id": "m3-divers",
@@ -1224,8 +1140,7 @@
         ],
         "effects": {
           "armor": "Lets you breathe underwater"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Divers"
+        }
       },
       {
         "id": "m3-doctors",
@@ -1239,8 +1154,7 @@
         "effects": {
           "armor": "+5% effectiveness of Stimpaks, RadAway, and Rad-X",
           "powerArmor": "+5% effectiveness of Stimpaks, RadAway, and Rad-X"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Doctors"
+        }
       },
       {
         "id": "m3-durability",
@@ -1256,8 +1170,7 @@
           "weapon": "Item breaks 50% slower",
           "armor": "Item breaks 50% slower",
           "powerArmor": "Item breaks 50% slower"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Durability"
+        }
       },
       {
         "id": "m3-electrified",
@@ -1271,8 +1184,7 @@
         "effects": {
           "armor": "5% chance to deal 12 energy damage/sec to melee attackers",
           "powerArmor": "5% chance to deal 12 energy damage/sec to melee attackers"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Electrified"
+        }
       },
       {
         "id": "m3-endurance",
@@ -1284,8 +1196,7 @@
         ],
         "effects": {
           "weapon": "+3 Endurance"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Endurance"
+        }
       },
       {
         "id": "m3-frozen",
@@ -1299,8 +1210,7 @@
         "effects": {
           "armor": "5% chance to deal 12 cryo damage/sec to melee attackers",
           "powerArmor": "5% chance to deal 12 cryo damage/sec to melee attackers"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Frozen"
+        }
       },
       {
         "id": "m3-ghosts",
@@ -1312,8 +1222,7 @@
         ],
         "effects": {
           "weapon": "10% chance to turn invisible for 2s on hit (ranged only)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Ghosts"
+        }
       },
       {
         "id": "m3-glowing",
@@ -1325,8 +1234,7 @@
         ],
         "effects": {
           "weapon": "(Ghoul) kills raise your glow meter / (Human) raise your radiation"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Glowing"
+        }
       },
       {
         "id": "m3-healthy",
@@ -1340,8 +1248,7 @@
         "effects": {
           "armor": "+20 max health",
           "powerArmor": "+20 max health"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Healthy"
+        }
       },
       {
         "id": "m3-intelligence",
@@ -1353,8 +1260,7 @@
         ],
         "effects": {
           "weapon": "+3 Intelligence"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Intelligence"
+        }
       },
       {
         "id": "m3-lightweight",
@@ -1366,8 +1272,7 @@
         ],
         "effects": {
           "weapon": "Weight reduced by 90%"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Lightweight"
+        }
       },
       {
         "id": "m3-luck",
@@ -1379,8 +1284,7 @@
         ],
         "effects": {
           "weapon": "+3 Luck"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Luck"
+        }
       },
       {
         "id": "m3-lucky",
@@ -1392,8 +1296,7 @@
         ],
         "effects": {
           "weapon": "+15 bonus V.A.T.S. critical charge"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Lucky"
+        }
       },
       {
         "id": "m3-nimble",
@@ -1405,8 +1308,7 @@
         ],
         "effects": {
           "weapon": "+100% movement speed while aiming (ranged only)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Nimble"
+        }
       },
       {
         "id": "m3-pack-rats",
@@ -1420,8 +1322,7 @@
         "effects": {
           "armor": "Junk item weights reduced by 20%",
           "powerArmor": "Junk item weights reduced by 20%"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Pack_Rats"
+        }
       },
       {
         "id": "m3-perception",
@@ -1433,8 +1334,7 @@
         ],
         "effects": {
           "weapon": "+3 Perception"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Perception"
+        }
       },
       {
         "id": "m3-reflex",
@@ -1446,8 +1346,7 @@
         ],
         "effects": {
           "armor": "+2% chance to evade attacks"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Reflex"
+        }
       },
       {
         "id": "m3-resilient",
@@ -1459,8 +1358,7 @@
         ],
         "effects": {
           "weapon": "+500 Damage/Energy Resistance while reloading (ranged only)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Resilient"
+        }
       },
       {
         "id": "m3-safecrackers",
@@ -1474,8 +1372,7 @@
         "effects": {
           "armor": "+1 Lockpicking and +1 Hacking skill",
           "powerArmor": "+1 Lockpicking and +1 Hacking skill"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Safecrackers"
+        }
       },
       {
         "id": "m3-secret-agents",
@@ -1487,8 +1384,7 @@
         ],
         "effects": {
           "armor": "+25% quieter sneaking, -25% detection distance"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Secret_Agents"
+        }
       },
       {
         "id": "m3-sentinels",
@@ -1502,8 +1398,7 @@
         "effects": {
           "armor": "-5% damage taken while standing still",
           "powerArmor": "-5% damage taken while standing still"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Sentinels"
+        }
       },
       {
         "id": "m3-steadfast",
@@ -1515,8 +1410,7 @@
         ],
         "effects": {
           "weapon": "+50 Damage/Energy Resistance while aiming (ranged only)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Steadfast"
+        }
       },
       {
         "id": "m3-strength",
@@ -1528,8 +1422,7 @@
         ],
         "effects": {
           "weapon": "+3 Strength"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Strength"
+        }
       },
       {
         "id": "m3-swift",
@@ -1541,8 +1434,7 @@
         ],
         "effects": {
           "weapon": "+15% reload speed (ranged only)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Swift"
+        }
       },
       {
         "id": "m3-thruhikers",
@@ -1556,8 +1448,7 @@
         "effects": {
           "armor": "Food, drink, and chem weights reduced by 20%",
           "powerArmor": "Food, drink, and chem weights reduced by 20%"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Thru-hikers"
+        }
       },
       {
         "id": "m3-toxic",
@@ -1571,8 +1462,7 @@
         "effects": {
           "armor": "5% chance to deal 12 poison damage/sec to melee attackers",
           "powerArmor": "5% chance to deal 12 poison damage/sec to melee attackers"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Toxic"
+        }
       },
       {
         "id": "m3-vats-optimized",
@@ -1584,8 +1474,7 @@
         ],
         "effects": {
           "weapon": "V.A.T.S. Action Point cost reduced by 35%"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/V.A.T.S._Optimized"
+        }
       }
     ],
     "4": [
@@ -1601,8 +1490,7 @@
         "effects": {
           "armor": "+30 carry capacity",
           "powerArmor": "+30 carry capacity"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Haulers"
+        }
       },
       {
         "id": "m4-raging",
@@ -1616,8 +1504,7 @@
         "effects": {
           "armor": "+3% damage for 10 seconds after being hit",
           "powerArmor": "+3% damage for 10 seconds after being hit"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Raging"
+        }
       },
       {
         "id": "m4-satiated",
@@ -1629,8 +1516,7 @@
         ],
         "effects": {
           "weapon": "Kills restore hunger and thirst (Ghoul: restores feral meter)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Satiated"
+        }
       },
       {
         "id": "m4-tarnished",
@@ -1642,8 +1528,7 @@
         ],
         "effects": {
           "weapon": "Up to +120% damage as durability decreases"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Tarnished"
+        }
       },
       {
         "id": "m4-vector",
@@ -1657,8 +1542,7 @@
         "effects": {
           "armor": "+10% V.A.T.S. accuracy vs distant targets",
           "powerArmor": "+10% V.A.T.S. accuracy vs distant targets"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Vector"
+        }
       },
       {
         "id": "m4-aegis",
@@ -1670,8 +1554,7 @@
         ],
         "effects": {
           "powerArmor": "+50 Physical/Energy and +20 Poison/Cryo/Fire resistance for your team within 50ft"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Aegis"
+        }
       },
       {
         "id": "m4-battleloaders",
@@ -1685,8 +1568,7 @@
         "effects": {
           "armor": "15% chance of an instant reload when bashing (up to 75% stacked)",
           "powerArmor": "15% chance of an instant reload when bashing (up to 75% stacked)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Battle-Loaders"
+        }
       },
       {
         "id": "m4-bruisers",
@@ -1700,8 +1582,7 @@
         "effects": {
           "armor": "Melee damage +5% per stack (up to +25% at full stack)",
           "powerArmor": "Melee damage +5% per stack (up to +25% at full stack)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Bruisers"
+        }
       },
       {
         "id": "m4-choochoos",
@@ -1713,8 +1594,7 @@
         ],
         "effects": {
           "powerArmor": "10% chance of 500 damage on a sprinting impact (up to 50% stacked)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Choo-Choos"
+        }
       },
       {
         "id": "m4-combobreakers",
@@ -1726,8 +1606,7 @@
         ],
         "effects": {
           "weapon": "50% chance to not consume Action Points (10% auto for melee) (melee only)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Combo-Breakers"
+        }
       },
       {
         "id": "m4-conductors",
@@ -1739,8 +1618,7 @@
         ],
         "effects": {
           "weapon": "Critical hits restore team health and Action Points"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Conductors"
+        }
       },
       {
         "id": "m4-electricians",
@@ -1752,8 +1630,7 @@
         ],
         "effects": {
           "weapon": "Reloading emits a stunning shockwave for 3 seconds (ranged only)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Electricians"
+        }
       },
       {
         "id": "m4-encirclers",
@@ -1765,8 +1642,7 @@
         ],
         "effects": {
           "weapon": "+10% damage per nearby combat target (up to +50%)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Encirclers"
+        }
       },
       {
         "id": "m4-fencers",
@@ -1778,8 +1654,7 @@
         ],
         "effects": {
           "weapon": "+12.5% melee damage per nearby teammate (up to +50%) (melee only)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Fencers"
+        }
       },
       {
         "id": "m4-fracturers",
@@ -1791,8 +1666,7 @@
         ],
         "effects": {
           "weapon": "Crippled limbs explode for up to 50 damage"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Fracturers"
+        }
       },
       {
         "id": "m4-icemens",
@@ -1804,8 +1678,7 @@
         ],
         "effects": {
           "weapon": "Applies a cryo slow effect on V.A.T.S. hits (melee only)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Icemens"
+        }
       },
       {
         "id": "m4-limitbreaking",
@@ -1819,8 +1692,7 @@
         "effects": {
           "armor": "Each equipped piece reduces critical hit cost by 10% (up to -50%)",
           "powerArmor": "Each equipped piece reduces critical hit cost by 10% (up to -50%)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Limit-Breaking"
+        }
       },
       {
         "id": "m4-miasmas",
@@ -1834,8 +1706,7 @@
         "effects": {
           "armor": "When hit, releases a poison cloud that damages nearby enemies",
           "powerArmor": "When hit, releases a poison cloud that damages nearby enemies"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Miasmas"
+        }
       },
       {
         "id": "m4-pinpointers",
@@ -1847,8 +1718,7 @@
         ],
         "effects": {
           "weapon": "+20% damage to weak spots (ranged only)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Pin-Pointers"
+        }
       },
       {
         "id": "m4-polished",
@@ -1860,8 +1730,7 @@
         ],
         "effects": {
           "weapon": "Higher item condition grants up to +60% weapon damage"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Polished"
+        }
       },
       {
         "id": "m4-pounders",
@@ -1873,8 +1742,7 @@
         ],
         "effects": {
           "weapon": "+10% damage per Onslaught stack (up to 10 stacks) (melee only)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Pounders"
+        }
       },
       {
         "id": "m4-propelling",
@@ -1886,8 +1754,7 @@
         ],
         "effects": {
           "powerArmor": "+5% movement/sprint speed per stack (up to +25%)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Propelling"
+        }
       },
       {
         "id": "m4-pyromaniacs",
@@ -1899,8 +1766,7 @@
         ],
         "effects": {
           "weapon": "+50% bonus damage to burning targets"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Pyromaniacs"
+        }
       },
       {
         "id": "m4-radioactivepowered",
@@ -1912,8 +1778,7 @@
         ],
         "effects": {
           "powerArmor": "+2 Action Point regen at the cost of radiation (up to +10)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Radioactive-Powered"
+        }
       },
       {
         "id": "m4-rangers",
@@ -1927,8 +1792,7 @@
         "effects": {
           "armor": "Ranged damage +5% per stack (up to +25% at full stack)",
           "powerArmor": "Ranged damage +5% per stack (up to +25% at full stack)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Rangers"
+        }
       },
       {
         "id": "m4-reflective",
@@ -1940,8 +1804,7 @@
         ],
         "effects": {
           "powerArmor": "Returns 10% of incoming damage to the attacker (up to 50%)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Reflective"
+        }
       },
       {
         "id": "m4-rejuvenators",
@@ -1953,8 +1816,7 @@
         ],
         "effects": {
           "powerArmor": "Gradually restores team health and Action Points within 50ft"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Rejuvenators"
+        }
       },
       {
         "id": "m4-runners",
@@ -1968,8 +1830,7 @@
         "effects": {
           "armor": "Sprint Action Point cost reduced by 20% per stack (up to -100%)",
           "powerArmor": "Sprint Action Point cost reduced by 20% per stack (up to -100%)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Runners"
+        }
       },
       {
         "id": "m4-sawboness",
@@ -1983,8 +1844,7 @@
         "effects": {
           "armor": "+1 health regen per second (up to +5)",
           "powerArmor": "+1 health regen per second (up to +5)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Sawboness"
+        }
       },
       {
         "id": "m4-scanners",
@@ -1996,8 +1856,7 @@
         ],
         "effects": {
           "powerArmor": "V.A.T.S. Action Point cost reduced by 5% (up to -25%)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Scanners"
+        }
       },
       {
         "id": "m4-stabilizers",
@@ -2009,8 +1868,7 @@
         ],
         "effects": {
           "weapon": "+50% recoil control and weapon stability (ranged only)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Stabilizers"
+        }
       },
       {
         "id": "m4-stalwarts",
@@ -2022,8 +1880,7 @@
         ],
         "effects": {
           "powerArmor": "Team power armor breaks 5% slower (up to 25% stacked)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Stalwarts"
+        }
       },
       {
         "id": "m4-tankys",
@@ -2037,8 +1894,7 @@
         "effects": {
           "armor": "+200 Damage/Energy Resistance while standing still (up to +1000)",
           "powerArmor": "+200 Damage/Energy Resistance while standing still (up to +1000)"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Tankys"
+        }
       },
       {
         "id": "m4-thrillseekers",
@@ -2050,8 +1906,7 @@
         ],
         "effects": {
           "weapon": "Reload/melee speed scales with kill streak"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Thrill-Seekers"
+        }
       },
       {
         "id": "m4-vipers",
@@ -2063,8 +1918,7 @@
         ],
         "effects": {
           "weapon": "+50% bonus damage to poisoned targets"
-        },
-        "wikiUrl": "https://fallout.fandom.com/wiki/Vipers"
+        }
       }
     ]
   },
