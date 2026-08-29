@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact :: C.A.M.P. Vendor Terminal</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+
+  <div class="boot crt-flicker" id="boot"></div>
+
+  <header class="masthead" id="masthead" style="display:none;">
+    <div class="camp-name" id="campName">CAMP NAME</div>
+    <div class="meta-row">
+      <span><span class="k">IN-GAME NAME:</span> <span class="v" id="ign">-</span></span>
+      <span><span class="k">DISCORD:</span> <span class="v" id="discord">-</span></span>
+    </div>
+    <div class="trade-banner" id="tradeBanner" style="display:none;"></div>
+  </header>
+
+  <nav class="nav-row" id="navRow" style="display:none;">
+    <a href="index.html">CATALOG</a>
+    <a href="contact.html" class="active">CONTACT</a>
+  </nav>
+
+  <main id="contactMain" style="display:none;">
+    <section class="section" id="enabledSection" style="display:none;">
+      <div class="section-head"><span class="section-title">SEND A REQUEST</span></div>
+      <p class="tagline" id="contactPrompt"></p>
+
+      <form class="contact-form" id="contactForm">
+        <input type="text" name="website" class="hp-field" tabindex="-1" autocomplete="off">
+
+        <div class="form-field">
+          <label for="fIgn">YOUR IN-GAME NAME</label>
+          <input type="text" id="fIgn" name="ign">
+        </div>
+        <div class="form-field">
+          <label for="fDiscord">DISCORD (OPTIONAL)</label>
+          <input type="text" id="fDiscord" name="discord">
+        </div>
+        <div class="form-field">
+          <label for="fWants">WHAT YOU'RE LOOKING FOR</label>
+          <textarea id="fWants" name="wants"></textarea>
+        </div>
+        <div class="form-field">
+          <label for="fOffering">WHAT YOU'RE OFFERING</label>
+          <textarea id="fOffering" name="offering"></textarea>
+        </div>
+        <div class="form-field">
+          <label for="fMessage">MESSAGE</label>
+          <textarea id="fMessage" name="message"></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn" id="submitBtn">SEND REQUEST</button>
+        <div class="form-status" id="formStatus"></div>
+      </form>
+    </section>
+
+    <section class="section" id="disabledSection" style="display:none;">
+      <div class="section-head"><span class="section-title">CONTACT</span></div>
+      <p class="disabled-note">Contact form is currently turned off. Check back later, or reach out in-game / on Discord directly.</p>
+    </section>
+  </main>
+
+  <div class="footer">
+    <span>SELF-HOSTED CAMP VENDOR TERMINAL</span>
+  </div>
+</div>
+
+<script src="catalog.js"></script>
+<script src="cart.js"></script>
+<script src="contact.js"></script>
+</body>
+</html>

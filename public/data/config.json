@@ -1,0 +1,17 @@
+{
+  "campName": "YOUR CAMP NAME",
+  "inGameName": "YourPipBoyName",
+  "discord": "yourname",
+  "server": "PC / Xbox / PlayStation",
+  "tagline": "Legendary crafting, weapon and armor mods, and trade goods, drop a message in-game or on Discord to arrange a swap.",
+  "note": "All items below are craftable at my C.A.M.P. or already in my stash for trade.",
+  "modsNote": "Legendary Modules are supplied by me. Some mods need an uncommon material, check the tag under each mod. Bring it, or we can try and work something out.",
+  "trade": {
+    "acceptingCaps": true,
+    "note": ""
+  },
+  "contact": {
+    "enabled": true,
+    "prompt": "Tell me what you're after and what you've got to offer, and I'll get back to you in-game or on Discord."
+  }
+}
